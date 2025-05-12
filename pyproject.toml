@@ -25,7 +25,7 @@ dev = [
 ]
 
 [project.scripts]
-mcp-server-mas-sequential-thinking = "main:run"
+mcp-server-mas-sequential-thinking-qwen = "main:run"
 
 [build-system]
 requires = ["hatchling"]
