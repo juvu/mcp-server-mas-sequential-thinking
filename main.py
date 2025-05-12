@@ -311,8 +311,11 @@ def create_sequential_thinking_team() -> Team:
     """
     try:
         ModelClass, team_model_id, agent_model_id = get_model_config()
-        team_model_instance = ModelClass(id=team_model_id)
-        agent_model_instance = ModelClass(id=agent_model_id)
+        #team_model_instance = ModelClass(id=team_model_id)
+        #agent_model_instance = ModelClass(id=agent_model_id)
+        team_model_instance = ModelClass(id=team_model_id,base_url='https://dashscope.aliyuncs.com/compatible-mode/v1')
+        agent_model_instance = ModelClass(id=agent_model_id,base_url='https://dashscope.aliyuncs.com/compatible-mode/v1')
+
 
     except Exception as e:
         logger.error(f"Error initializing models: {e}")
