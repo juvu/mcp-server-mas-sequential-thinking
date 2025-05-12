@@ -1,5 +1,5 @@
 [project]
-name = "mcp-server-mas-sequential-thinking"
+name = "mcp-server-mas-sequential-thinking-qwen"
 version = "0.2.3"
 description = "MCP Agent Implementation for Sequential Thinking"
 readme = "README.md"
