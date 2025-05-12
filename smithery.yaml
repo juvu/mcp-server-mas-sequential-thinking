@@ -32,7 +32,7 @@ startCommand:
     # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
     |-
     (config) => ({
-      command: 'mcp-server-mas-sequential-thinking',
+      command: 'mcp-server-mas-sequential-thinking-qwen',
       args: [],
       env: {
         LLM_PROVIDER: config.llmProvider,
